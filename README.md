@@ -30,7 +30,7 @@ Inspired by CodingGarden's [mac-setup repo](https://github.com/CodingGarden/mac-
 
 ## What Macbook do I have?
 
-I am using a [M3 Max 14-core CPU/30-core GPU/36GB RAM/1TB SSD 14-inch Macbook Pro](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m3-max-14-core-cpu-30-core-gpu-14-late-2023-specs.html) for personal and professional work.
+I am using a [M3 Max 14-core CPU/30-core GPU/36GB RAM/1TB SSD 14-inch Macbook Pro](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m3-max-14-core-cpu-30-core-gpu-14-late-2023-specs.html) for personal and professional use.
 
 ## OS Settings
 
