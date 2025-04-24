@@ -8,33 +8,29 @@ Inspired by CodingGarden's [mac-setup repo](https://github.com/CodingGarden/mac-
   - [Desktop](#desktop)
   - [Finder](#finder)
   - [Dock](#dock)
-- [Quick Launching](#quick-launching)
 - [Homebrew](#homebrew)
-  - [Homebrew](#homebrew-1)
-  - [RayCast Homebrew Plugin](#raycast-homebrew-plugin)
-- [Window Management](#window-management)
+- [Raycast](#raycast)
+  - [Homebrew Plugin](#homebrew-plugin)
+  - [Window Management](#window-management)
+- [Keyboard Customizer](#keyboard-customizer)
+- [Battery](#battery)
 - [App Switching](#app-switching)
 - [Menu Bar Utilities](#menu-bar-utilities)
   - [Hidden Bar](#hidden-bar)
   - [System Stats Widgets](#system-stats-widgets)
-  - [Menu Bar Calendar](#menu-bar-calendar)
 - [Break Timer](#break-timer)
-- [Web Browser](#web-browser)
-  - [Firefox](#firefox)
-- [Other Apps I Use Daily](#other-apps-i-use-daily)
-  - [Docker](#docker)
-- [Terminal](#terminal)
+- [Docker](#docker)
+- [Warp](#warp)
   - [Shell](#shell)
-    - [Load dotfiles](#load-dotfiles)
-  - [Github SSH Setup](#github-ssh-setup)
-    - [Other command line tools I use](#other-command-line-tools-i-use)
+  - [Prompt](#prompt)
+- [Dotfiles](#dotfiles)
+- [Github SSH Setup](#github-ssh-setup)
 - [Node.js](#nodejs)
-  - [Global Modules](#global-modules)
-- [VS Code](#vs-code)
+- [Other Apps](#other-apps)
 
 ## What Macbook do I have?
 
-I am using an [https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m3-max-14-core-cpu-30-core-gpu-14-late-2023-specs.html#:~:text=Apple%20MacBook%20Pro%20%22M3%20Max%22%2014%20CPU/30%20GPU%2014%22](Apple MacBook Pro "M3 Max" 14-core CPU/30-core GPU/36GB RAM/1TB SSD 14-inch) laptop for personal use.
+I am using a [M3 Max 14-core CPU/30-core GPU/36GB RAM/1TB SSD 14-inch](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m3-max-14-core-cpu-30-core-gpu-14-late-2023-specs.html) Macbook Pro for personal and professional work.
 
 ## OS Settings
 
@@ -53,6 +49,8 @@ These are my preferred settings for `Desktop`, `Finder` and the `Dock`.
       * Widgets
         * On Desktop -> uncheck
         * In Stage Manager -> uncheck
+
+I also prefer to set my wallpaper to plain black.
 
 ### Finder
 
@@ -105,11 +103,23 @@ The [RayCast Homebrew Plugin](https://www.raycast.com/nhojb/brew) enables easy p
 
 ### Window Management
 
-In Raycast's Settings -> Extensions -> Window Management -> Hotkeys, select the "Rectangle" preset.
+In Raycast's Settings -> Extensions -> Window Management -> Hotkeys, I select the "Rectangle" preset.
 
-## Keyboard customizer
+## Keyboard Customizer
 
-[Karabiner-Elements](https://karabiner-elements.pqrs.org/) allows keyboard remaps, such that I can easily switch between my PC and Mac while keeping the same config on my [Glove80 keyboard](https://www.moergo.com/).
+[Karabiner-Elements](https://karabiner-elements.pqrs.org/) enables keyboard layout remappings. I use it so I can switch between my PC and Mac while keeping the same layout on my [Glove80 keyboard](https://www.moergo.com/).
+
+```sh
+brew install --cask karabiner-elements
+```
+
+## Battery 
+
+[Aldente](https://apphousekitchen.com/) gives control over the charging behavior of Mac OS, helping extend battery lifespan and maintain peak performance.
+
+```sh
+brew install --cask aldente
+```
 
 ## App Switching
 
@@ -145,7 +155,6 @@ I have it setup to show:
 * 10 second micro break every 15 minutes
 * 1 minute long break every 60 minutes
 
-
 ## Docker
 
 [Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications.
@@ -158,19 +167,17 @@ brew install --cask docker
 
 [Warp](https://on.warp.dev/home) is an AI-integrated terminal for natural language input, autofill, and intelligent suggestions.
 
-
-```
+```sh
 brew install --cask warp
 ```
 
 ### Shell
 
-[Oh My Zsh](https://ohmyz.sh/) is an open source, community-driven framework for configuration management of zsh, Mac OS' default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells)..
+[Oh My Zsh](https://ohmyz.sh/) is an open source, community-driven framework for configuration management of zsh, Mac OS' default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells).
 
 ### Prompt
 
 I use Warp's default prompt with [FireCode Nerd Font](https://www.nerdfonts.com/font-downloads). For additional shell customization, I recommend using [Starship](https://starship.rs/guide/).
-
 
 ## Dotfiles
 
