@@ -77,6 +77,13 @@ I also prefer to set my wallpaper to plain black.
     * Animate opening applications -> No
     * Show suggested and recent apps in the Dock -> No
 
+### Other
+
+* Keyboard
+  * Keyboard Shortcuts
+    * Function keys
+      * Use F1, F2, etc. keys as standard function keys -> check
+
 ## Homebrew
 
 [Homebrew](https://brew.sh/) allows us to install tools and apps from the command line. It's commonly known as the missing package manager for Mac OS.
